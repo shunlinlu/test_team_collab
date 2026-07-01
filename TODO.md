@@ -17,7 +17,7 @@ target_lines: 120
 
 ## In Progress
 
-- None.
+- [ ] Colleague onboarding via `init --join` @zhou since 2026-07-01 (id: T-20260701-03)
 
 ## Blocked
 
@@ -26,9 +26,10 @@ target_lines: 120
 ## Backlog
 
 - [ ] Complete project overview (id: T-20260622-02)
-- [ ] Colleague onboarding via `init --join` (id: T-20260701-03)
 - [ ] Install gitleaks + protect `main` on both repos (id: T-20260701-04)
 - [ ] Extend collector: new source / scheduling (id: T-20260701-05)
+- [ ] Make collector Windows-compatible by handling missing `os.getloadavg()` (id: T-20260701-07)
+- [ ] Grant coolSrping collaborator write access on both GitHub repos (id: T-20260701-08)
 
 ## Recently Completed
 

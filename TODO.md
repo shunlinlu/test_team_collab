@@ -18,7 +18,6 @@ target_lines: 120
 ## In Progress
 
 - [ ] Colleague onboarding via `init --join` @zhou since 2026-07-01 (id: T-20260701-03)
-- [ ] Make collector Windows-compatible by handling missing `os.getloadavg()` @zhou since 2026-07-01 (id: T-20260701-07)
 
 ## Blocked
 
@@ -33,5 +32,6 @@ target_lines: 120
 
 ## Recently Completed
 
+- [x] Make collector Windows-compatible by handling missing `os.getloadavg()` @zhou 2026-07-01 (id: T-20260701-07)
 - [x] Initialize project docs repo @lushunlin 2026-07-01 (id: T-20260622-01)
 - [x] Data-acquisition demo + tests @lushunlin 2026-07-01 (id: T-20260701-06); see [_handoffs/2026-07-01-1829](./_handoffs/2026-07-01-1829-team-collab-setup-collector-demo.md)

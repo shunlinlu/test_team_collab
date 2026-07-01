@@ -1,6 +1,9 @@
 ---
 title: handoff 2026-07-01 team-collab-setup-collector-demo
+form: log
 date: 2026-07-01
+updated: 2026-07-01
+status: done
 project: test-team-collab
 author: shunlinlu
 agent: claude-opus-4-8 via Claude Code

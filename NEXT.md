@@ -16,9 +16,9 @@ target_lines: 80
 
 ## Next Actions
 
-1. Colleague joins via `team-collab init --join test-team-collab`; acceptance: they can pull both repos and see this state. Details in [TODO](./TODO.md).
-2. `brew install gitleaks`; acceptance: docs pre-commit actually scans (see [RISKS](./RISKS.md)).
-3. Protect `main` on both GitHub repos; acceptance: direct push blocked, changes via PR. Tracked in [TODO](./TODO.md) (T-20260701-04).
+1. Run `team-collab init --join test-team-collab` for the colleague; acceptance: they pull both repos and see this state. Details in [TODO](./TODO.md).
+2. Run `brew install gitleaks`; acceptance: docs pre-commit actually scans (see [RISKS](./RISKS.md)).
+3. Update both GitHub repos to protect `main`; acceptance: direct push blocked, changes via PR. Tracked in [TODO](./TODO.md) (T-20260701-04).
 
 ## Open Decisions
 

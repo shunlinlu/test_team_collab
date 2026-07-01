@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+set -e
+
+if command -v gitleaks >/dev/null 2>&1; then
+  gitleaks protect --staged --redact --exit-code 1 --source . || {
+    echo ""
+    echo "[pre-commit] gitleaks detected secrets in staged files."
+    echo "[pre-commit] Refusing to commit. Fix before retry."
+    echo "[pre-commit] DO NOT use 'git commit --no-verify' to bypass."
+    exit 1
+  }
+else
+  echo "[pre-commit] WARNING: gitleaks not installed. Skipping secrets scan."
+  echo "[pre-commit] Install: brew install gitleaks"
+fi

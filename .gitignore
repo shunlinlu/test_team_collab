@@ -1,0 +1,22 @@
+# Obsidian internals
+.obsidian/
+.trash/
+
+# Obsidian generated/temp artifacts
+*.base
+*.canvas
+*.canvas.backup
+
+# macOS
+.DS_Store
+.AppleDouble
+._*
+
+# Editor/OS temp
+*.tmp
+*.temp
+~*
+
+# Local Feishu webhook configuration (contains secrets)
+.team-feishu-targets.json
+team-feishu-targets.local.json

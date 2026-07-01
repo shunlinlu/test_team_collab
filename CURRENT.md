@@ -16,20 +16,21 @@ target_lines: 80
 
 ## One-Line Status
 
-- TBD: one sentence, under 240 characters.
+- team-collab project stood up; both GitHub repos live over SSH; minimal 数采 demo shipped and ready for a colleague to join.
 
 ## Current Focus
 
-- TBD; details in [NEXT](./NEXT.md).
+- Onboard colleague via `init --join`; harden setup (gitleaks, branch protection). Details in [NEXT](./NEXT.md).
 
 ## Recent Completions
 
-- TBD: one-line milestone rollup; evidence in [_handoffs](./_handoffs/) or linked design/ADR.
+- Leader init of docs baseline + code agent entry, both remotes pushed. Evidence: [_handoffs/2026-07-01-1829](./_handoffs/2026-07-01-1829-team-collab-setup-collector-demo.md).
+- Data-acquisition demo (`collector/collect.py`, tests 2/2). Same handoff.
 
 ## Active Branches
 
-- Code:
-- Docs:
+- Code: `main` (test_team_collab_code)
+- Docs: `main` (test_team_collab)
 
 ## Reader Entry Points
 

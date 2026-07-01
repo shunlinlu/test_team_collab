@@ -18,7 +18,7 @@ target_lines: 80
 
 | Risk | Impact | owner | Status |
 |---|---|---|---|
-| TBD | TBD | @lushunlin | active; action in [NEXT](./NEXT.md) |
+| gitleaks not installed | docs pre-commit hook does not scan for secrets | @lushunlin | active; action 2 in [NEXT](./NEXT.md) |
 
 ## Resolved
 

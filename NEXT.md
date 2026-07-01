@@ -16,11 +16,13 @@ target_lines: 80
 
 ## Next Actions
 
-1. TBD; acceptance: ...; details in [TODO](./TODO.md).
+1. Colleague joins via `team-collab init --join test-team-collab`; acceptance: they can pull both repos and see this state. Details in [TODO](./TODO.md).
+2. `brew install gitleaks`; acceptance: docs pre-commit actually scans (see [RISKS](./RISKS.md)).
+3. Protect `main` on both GitHub repos; acceptance: direct push blocked, changes via PR.
 
 ## Open Decisions
 
-- TBD; decision owner:
+- None open.
 
 ## Deferred
 

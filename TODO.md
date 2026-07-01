@@ -17,7 +17,7 @@ target_lines: 120
 
 ## In Progress
 
-- [ ] Initialize project docs repo @lushunlin since 2026-06-22 (id: T-20260622-01)
+- None.
 
 ## Blocked
 
@@ -26,7 +26,11 @@ target_lines: 120
 ## Backlog
 
 - [ ] Complete project overview (id: T-20260622-02)
+- [ ] Colleague onboarding via `init --join` (id: T-20260701-03)
+- [ ] Install gitleaks + protect `main` on both repos (id: T-20260701-04)
+- [ ] Extend collector: new source / scheduling (id: T-20260701-05)
 
 ## Recently Completed
 
-- None. Keep at most 15-20 items here; archive older work to `archive/todo-YYYY-MM.md` or rely on `_handoffs/` / `dev-records/`.
+- [x] Initialize project docs repo @lushunlin 2026-07-01 (id: T-20260622-01)
+- [x] Data-acquisition demo + tests @lushunlin 2026-07-01 (id: T-20260701-06); see [_handoffs/2026-07-01-1829](./_handoffs/2026-07-01-1829-team-collab-setup-collector-demo.md)

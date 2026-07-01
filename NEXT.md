@@ -2,7 +2,7 @@
 title: test-team-collab Next Actions
 form: state
 topic: [implementation]
-updated: 2026-06-22
+updated: 2026-07-01
 status: active
 owner: lushunlin
 tags: [team-docs, next]
@@ -18,7 +18,7 @@ target_lines: 80
 
 1. Colleague joins via `team-collab init --join test-team-collab`; acceptance: they can pull both repos and see this state. Details in [TODO](./TODO.md).
 2. `brew install gitleaks`; acceptance: docs pre-commit actually scans (see [RISKS](./RISKS.md)).
-3. Protect `main` on both GitHub repos; acceptance: direct push blocked, changes via PR.
+3. Protect `main` on both GitHub repos; acceptance: direct push blocked, changes via PR. Tracked in [TODO](./TODO.md) (T-20260701-04).
 
 ## Open Decisions
 
@@ -26,4 +26,4 @@ target_lines: 80
 
 ## Deferred
 
-- TBD; resume condition:
+- None.

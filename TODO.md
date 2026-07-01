@@ -28,10 +28,10 @@ target_lines: 120
 - [ ] Complete project overview (id: T-20260622-02)
 - [ ] Install gitleaks + protect `main` on both repos (id: T-20260701-04)
 - [ ] Extend collector: new source / scheduling (id: T-20260701-05)
-- [ ] Grant coolSrping collaborator write access on both GitHub repos (id: T-20260701-08)
 
 ## Recently Completed
 
 - [x] Make collector Windows-compatible by handling missing `os.getloadavg()` @zhou 2026-07-01 (id: T-20260701-07)
 - [x] Initialize project docs repo @lushunlin 2026-07-01 (id: T-20260622-01)
 - [x] Data-acquisition demo + tests @lushunlin 2026-07-01 (id: T-20260701-06); see [_handoffs/2026-07-01-1829](./_handoffs/2026-07-01-1829-team-collab-setup-collector-demo.md)
+- [x] Grant coolSrping write access on both repos @lushunlin 2026-07-01 (id: T-20260701-08)
